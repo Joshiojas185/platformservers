@@ -870,7 +870,7 @@ io.on('connection', (socket) => {
 });
 
 const PORT = process.env.PORT || 4000;
-const HOST = '192.168.29.153';
+const HOST = '0.0.0.0';
 // const HOST = '10.33.0.21';
 
 // const HOST = 'localhost';
